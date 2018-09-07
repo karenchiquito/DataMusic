@@ -1,0 +1,93 @@
+<!-- 
+Document   : RegistroEmpresa
+Created on : 2/09/2018, 09:15:18 PM
+Author     : usuario
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/estilos.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>RegistroEmpresa</title>
+    </head>
+    <body>
+
+        <!aqui empiesa el encabesado de pagina!>
+    <nav class="navbar navbar-light" style="background-color: #4c2882;">
+        <div class="container-fluid">
+
+            <!aqui empiesa el nombre de dataMusic!>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">DataMusic</a>
+            </div>
+            <!aqui termina el nombre de dataMusic!>
+
+            <!aqui empieza el contenido del encabesado!>
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="RegistroArtista.jsp"><span class="glyphicon glyphicon-log-in"></span> Salir</a></li>
+            </ul>
+            <!aqui termina el contenido del encabesado!>
+        </div>
+    </nav>
+    <!aqui TERMINA el encabesado de pagina!>
+
+
+    <!este es el color morado del fondo!>
+    <div class="fondoMorado">
+    </div>
+
+    <!aqui termina el color morado del fondo >
+
+    <!aqui empiesa el formulario del Registro!>    
+    <form class="centralizacionEmpresa">
+
+        <!empiesa titulo del formulario!>
+        <h1>Registro Empresa </h1>
+        <!termina titulo del formulario!>
+        <br>
+
+        <!empiesa el campo nombreEmpresa!>
+        <div class=" form-group text-left  ">
+            <label for="txtNombreEmpresa">Nombre Empresa :</label>
+            <input type="text" class="form-control input" name="txtNombreEmpresa"  id="txtNombreEmpresa" required tabindex="1" placeholder="Ejm:tumblr">
+
+        </div>
+        <!termina el campo nombreEmpresa!>
+        <!empiesa el campo Descripcion!>
+        <div class=" form-group text-left  ">
+            <label for="comDescricion">Descricion:</label>
+            <textarea class="form-control" rows="4" id="comDescricion" required tabindex="1" placeholder="descripcion de la empresa por ejm: como difunde la musica etc "></textarea>
+        </div>
+        <!termina el campo Descripcion!>
+        <!empieza el campo  Valor venta!>
+        <div class=" form-group text-left  ">
+            <label for="txtValorVenta">Valor venta:</label>
+            <input type="text" class="form-control input" name="txtValorVenta"  id="txtValorVenta" required tabindex="1" placeholder="201">
+        </div>
+        <!termina el campo Valor venta!>
+
+        <!empieza boton registrar!>
+        <div class="form-group text-center  ">
+            <a href="ConsultaEmpresas.jsp"><input type="button" class="btn botonRegistrar btn-block"  name="btnRegistrar " value="Registrar"></a> 
+        </div>
+        <!termina boton registrar!>
+
+        <!empieza boton cancelar!>
+        <div class="form-group text-center  ">
+            <a href="RegistroArtista.jsp"><input type="button" class="btn botonRegistrar btn-block"  name="btnCancelar " value="cancelar"></a> 
+        </div>
+        <!termina boton cancelar!>
+
+    </form>
+    <!termina formulario!>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+/* estilo chidori sevice desk */
+
+.centralizacionARtista{
+
+
+    border: 4px solid #E1E1E1;
+    background-color: #ffffff;
+    border-radius: 1px;
+    padding: 47px;
+    width:  400px;
+    height: 700px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.centralizacionEmpresa{
+
+
+    border: 4px solid #E1E1E1;
+    background-color: #ffffff;
+    border-radius: 1px;
+    padding: 47px;
+    width:  400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.centralizacionMenu{
+
+    position: absolute;
+    top: 96%;
+    left: 4%;
+    width: 200px;
+    transform: translate(-10%,-375%);
+
+
+}
+
+.centralizacionConsultaEmpresa{
+
+
+    border: 4px solid #E1E1E1;
+    background-color: #ffffff;
+    border-radius: 1px;
+    padding: 47px;
+    width:  900px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+.centralizacionConsultaArtista{
+
+
+    border: 4px solid #E1E1E1;
+    background-color: #ffffff;
+    border-radius: 1px;
+    padding: 47px;
+    width:  900px;
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.fondoMorado{
+
+    background-color:#4c2882;
+    color: #ffffff;
+    height:250px;
+}
+
+
+.inputsRegistros{
+
+    background: transparent;
+    border :none;
+    border-bottom: 1px solid #212F3C ;
+    outline: none;
+    color : #ffffff;
+    position: relative;
+
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    background-color:#fff;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff  !important;
+    background-color: #4c2882 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.botonRegistrar{
+
+    color: #fff;
+    background-color: #4c2882;
+    border-color: #4c2882;
+}
+
+
+.tablasMoradas{
+
+    background-color: #4c2882;
+    color: #fff;
+
+}
+
+.MenuMorado{
+
+    background-color: #BB8FCE;
+    color: #fff;
+
+}
+
+.Menu{
+
+    background-color:#4A235A ;
+    color: #000;  
+}
+
+.botonModificar{
+
+    color: #fff;
+    background-color: #D7BDE2;
+    border-color: #D7BDE2;
+}
+
+.botonBorrar{
+
+    color: #fff;
+    background-color: #A569BD;
+    border-color: #A569BD;
+}
+
+
+
+
